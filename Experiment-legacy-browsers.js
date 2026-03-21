@@ -2647,11 +2647,11 @@ function trials_4LoopEndIteration(scheduler, snapshot) {
       if (snapshot.finished) {
         // Check for and save orphaned data
         if (psychoJS.experiment.isEntryEmpty()) {
-          psychoJS.experiment.nextEntry(snapshot);
+          //psychoJS.experiment.nextEntry(snapshot);
         }
         scheduler.stop();
       } else {
-        psychoJS.experiment.nextEntry(snapshot);
+        //psychoJS.experiment.nextEntry(snapshot);
       }
     return Scheduler.Event.NEXT;
     }
