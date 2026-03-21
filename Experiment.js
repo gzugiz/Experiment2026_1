@@ -1340,7 +1340,7 @@ function InstructionGlobalRoutineEnd(snapshot) {
     if (currentLoop instanceof MultiStairHandler) {
       currentLoop.addResponse(key_resp.corr, level);
     }
-    psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
+    //psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
     if (typeof key_resp.keys !== 'undefined') {  // we had a response
         //psychoJS.experiment.addData('key_resp.rt', key_resp.rt);
         routineTimer.reset();
@@ -2448,9 +2448,9 @@ function TEXTRoutineEnd(snapshot) {
     if (currentLoop instanceof MultiStairHandler) {
       currentLoop.addResponse(TextResp.corr, level);
     }
-    psychoJS.experiment.addData('TextResp.keys', TextResp.keys);
+    //psychoJS.experiment.addData('TextResp.keys', TextResp.keys);
     if (typeof TextResp.keys !== 'undefined') {  // we had a response
-        psychoJS.experiment.addData('TextResp.rt', TextResp.rt);
+        //psychoJS.experiment.addData('TextResp.rt', TextResp.rt);
         routineTimer.reset();
         }
     
