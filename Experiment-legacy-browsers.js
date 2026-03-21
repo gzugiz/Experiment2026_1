@@ -1335,7 +1335,7 @@ function InstructionGlobalRoutineEnd(snapshot) {
     if (currentLoop instanceof MultiStairHandler) {
       currentLoop.addResponse(key_resp.corr, level);
     }
-    psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
+    //psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
     if (typeof key_resp.keys !== 'undefined') {  // we had a response
         //psychoJS.experiment.addData('key_resp.rt', key_resp.rt);
         routineTimer.reset();
