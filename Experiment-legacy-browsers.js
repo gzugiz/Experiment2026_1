@@ -3734,9 +3734,8 @@ function PASATRoutineEnd(snapshot) {
     psychoJS.experiment.addData('eredm', a);
     psychoJS.experiment.addData('textbox.text',textbox.text);
     //psychoJS.experiment.addData('button.numClicks', button.numClicks);
-    psychoJS.experiment.addData('button.timesOn', button.timesOn);
+    //psychoJS.experiment.addData('button.timesOn', button.timesOn);
     //psychoJS.experiment.addData('button.timesOff', button.timesOff);
-    psychoJS.experiment.addData('buttonStart', button.tStart);
     psychoJS.experiment.addData('buttonLast', button.timesOn[button.timesOn.length-1]);
 
     // the Routine "PASAT" was not non-slip safe, so reset the non-slip timer
